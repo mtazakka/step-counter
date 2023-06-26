@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style='auto' />
-      <RingProgress progress={0.30} />
+      <RingProgress progress={0.8} />
 
       <View style={styles.values}>
         <Value label='Steps' value='1219' />
